@@ -1,0 +1,142 @@
+{
+  "id": "1",
+  "name": "Gregory Andrade",
+  "posts": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "img": "https://th.bing.com/th/id/OIG.FKmVuq5KiiAxIoN7Vup7?pid=ImgGn",
+      "title": "Dia incrível na praia!",
+      "date": "2023-12-07T23:46:47Z",
+      "text": "Hoje foi um dia incrível na praia! O sol estava brilhando e a água estava perfeita.",
+      "likes": 120,
+      "shares": 15,
+      "comments": [
+        {
+          "id": 1,
+          "name": "Maria Pereira",
+          "date": "2023-12-07T23:50:00Z",
+          "comment": "Que praia linda!"
+        },
+        {
+          "id": 2,
+          "name": "Carlos Santos",
+          "date": "2023-12-07T23:55:00Z",
+          "comment": "Estou com inveja!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Maria Pereira",
+      "img": "https://th.bing.com/th/id/OIG.LdYSakbKyFL5s5lfD40c?w=1024&h=1024&rs=1&pid=ImgDetMain",
+      "title": "Nova receita de bolo de chocolate",
+      "date": "2023-12-08T23:46:47Z",
+      "text": "Acabei de experimentar uma nova receita de bolo de chocolate. Ficou delicioso!",
+      "likes": 85,
+      "shares": 20,
+      "comments": [
+        {
+          "id": 1,
+          "name": "João Silva",
+          "date": "2023-12-08T23:50:00Z",
+          "comment": "Parece delicioso!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carlos Santos",
+      "img": "https://th.bing.com/th/id/OIG.vvTJlQBoMvVqERyGb5ZH?pid=ImgGn",
+      "title": "Meu novo projeto de carpintaria",
+      "date": "2023-12-09T23:46:47Z",
+      "text": "Comecei um novo projeto de carpintaria hoje. Mal posso esperar para ver o resultado final!",
+      "likes": 95,
+      "shares": 10,
+      "comments": [
+        {
+          "id": 1,
+          "name": "Ana Costa",
+          "date": "2023-12-09T23:50:00Z",
+          "comment": "Mal posso esperar para ver!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ana Costa",
+      "img": "https://th.bing.com/th/id/OIG.eyJ1addlcdQdG0N4nKC0?pid=ImgGn",
+      "title": "Viagem ao campo",
+      "date": "2023-12-10T23:46:47Z",
+      "text": "Passei o dia no campo hoje. Foi tão tranquilo e relaxante.",
+      "likes": 105,
+      "shares": 12,
+      "comments": [
+        {
+          "id": 1,
+          "name": "Maria Pereira",
+          "date": "2023-12-10T23:50:00Z",
+          "comment": "Que lugar lindo!"
+        },
+        {
+          "id": 2,
+          "name": "João Silva",
+          "date": "2023-12-10T23:55:00Z",
+          "comment": "Parece ser um ótimo lugar para relaxar."
+        }
+      ]
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "img": "https://i.ibb.co/R7w8ktn/Screenshot-1.png",
+      "common_friends": ["Claudio", "Maria Pereira", "José Santos", "João Ferreira", "João Gonçalves"]
+    },
+    {
+      "id": 2,
+      "name": "Maria Pereira",
+      "img": "https://i.ibb.co/tXKjDf7/Screenshot-10.png",
+      "common_friends": ["João Silva", "Claudio", "José Santos", "João Ferreira", "João Gonçalves"]
+    },
+    {
+      "id": 3,
+      "name": "Carlos Santos",
+      "img": "https://i.ibb.co/JrqdKKb/Screenshot-4.png",
+      "common_friends": ["João Silva", "Ana Costa"]
+    },
+    {
+      "id": 4,
+      "name": "Ana Costa",
+      "img": "https://i.ibb.co/ngMfDXC/Screenshot-3.png",
+      "common_friends": ["Carlos Santos"]
+    }
+  ],
+  "friend_suggestions":[
+    {
+      "id": 5,
+      "name": "Claudio",
+      "img": "https://i.ibb.co/cYp9Xsw/Screenshot-7.png",
+      "common_friends": ["João Silva", "Maria Pereira"]
+    },
+    {
+      "id": 6,
+      "name": "José Santos",
+      "img": "https://i.ibb.co/Npq1ff5/Screenshot-8.png",
+      "common_friends": ["João Silva", "Maria Pereira", "Carlos Santos"]
+    },
+    {
+      "id": 7,
+      "name": "Camila Ferreira",
+      "img": "https://i.ibb.co/rxVRyX0/Screenshot-5.png",
+      "common_friends": ["João Silva", "Maria Pereira"]
+    },
+    {
+      "id": 8,
+      "name": "Erica Gonçalves",
+      "img": "https://i.ibb.co/HH7Qzyt/Screenshot-6.png",
+      "common_friends": ["João Silva", "Maria Pereira"]
+    }
+  ]
+}
