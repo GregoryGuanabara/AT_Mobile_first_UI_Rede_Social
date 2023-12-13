@@ -43,7 +43,7 @@ export default function PostCard({ name, img, title, date, shares, text, likes, 
   }).replaceAll(",", "");
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, border: "1px solid #FAFF70"}}>
       <Typography sx={{ marginTop: 1 }} color="#7F9C96">
         {name} Postou:
       </Typography>

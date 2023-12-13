@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 export default function FeedCard({ children }) {
   return (
-    <Card  sx={{ minWidth: 275, marginTop: 3 }}>
+    <Card sx={{ minWidth: 275, marginTop: 3, backgroundColor: "#DCE5E3" }}>
       <CardContent>
         <Typography sx={{ fontSize: 18 }} color="text.secondary" gutterBottom>
           Feed:
