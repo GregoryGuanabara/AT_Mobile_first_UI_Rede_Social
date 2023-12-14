@@ -6,6 +6,7 @@ import FeedCard from './components/card/FeedCard'
 import PostCardList from './components/list/PostCardList'
 import RelationshipsCard from './components/card/RelationshipsCard'
 import RelationshipCardList from './components/list/RelationshipCardList'
+import Footer from './components/footer/Footer'
 import { useState, useEffect } from 'react';
 
 async function LoadData() {
@@ -51,6 +52,7 @@ export default function App() {
         <RelationshipsCard header='Talvez você conheça'>
           <RelationshipCardList relationships={profile.friend_suggestions} />
         </RelationshipsCard>
+        <Footer>Desenvolvido por Gregory Andrade Guanabara para o Assessment da disciplina Mobile-first UI com React. Todos direitos reservados a Rede Social.</Footer>
       </Container>
     </main >
   )
